@@ -57,3 +57,5 @@ jobs:
 # test:
 #   override:    
 #     - mocha
+
+# The expected curl:  curl -H "Content-Type:application/json" --data '{"build":true}' -X POST https://cloud.docker.com/api/build/v1/source/3726ce78-f8d9-432b-a478-903258a4143e/trigger/fe249f31-28de-4a7b-9375-61a5b0a06bc9/call/
