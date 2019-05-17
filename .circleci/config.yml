@@ -37,6 +37,12 @@ jobs:
       # run tests!
       - run: yarn test
 
+      - deploy:
+          filters:
+            branches:
+              only: master
+          command:
+          - $docker_hub_trigger
 
 # # The deployment section should be excluded until
 # # it is explicitly included in module 5
